@@ -5,7 +5,8 @@ export default function SocialLinks({ className }) {
 	return (
 		<ul className={classnames('list-reset', className)}>
 			<li>
-				<a href="https://facebook.com">
+				
+				<a href="https://facebook.com/Louis Gabriel">
 					<span className="screen-reader-text">Facebook</span>
 					<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
 						<path

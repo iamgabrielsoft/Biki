@@ -2,6 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classnames from 'classnames';
 
+
+
 export default function NavLinks({ className }) {
 	const links = [
 		{ text: 'Contact', href: '/contact' },

@@ -1,24 +1,29 @@
 
 import axios from 'axios'; 
-import constants from '../config/constant'; 
+import constants from '../config/constant'
+
+
+export const createShortUrl = reqObj => axios.post(constants.apiUrl, reqObj) //post free homepage url
 
 
 
-const api = axios.create({
-    baseURL: constants.apiUrl,
-})
+export const getFeaturesPage = () => axios.get('/features');  //feature page 
 
 
-export const createShortLink = payload => api.post('/api', payload); 
-export const getAllShortLinks = fetchUrl => api.get('/api/url', fetchUrl); 
-export const fetchSinglelink = fetchUrl => api.get('/api/url/:code', fetchUrl); 
+export const signup = userData => axios.post('/api/signup', userData);
+
+export const signin = userData => axios.get('/api/signin', userData); 
+
+
 
 
 
 const apis = {
-    createShortLink, 
-    getAllShortLinks, 
-    fetchSinglelink
+    createShortUrl, 
+    getFeaturesPage, 
+    signup, 
+    signin
 }
+
 
 export default apis; 

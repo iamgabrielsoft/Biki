@@ -1,6 +1,6 @@
 
 
 module.exports = {
-    apiUrl: "http://localhost:8000/api",
+    apiUrl: "http://biki:8000/api",
     baseUrl: "http://localhost"
   };  

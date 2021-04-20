@@ -24,6 +24,7 @@ class Header extends Component {
 									<Logo /> {title}
 								</Link>
 							</h1>
+							
 						</div>
 					</div>
 				</div>

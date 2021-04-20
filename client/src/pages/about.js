@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../layouts/index';
 
+
 export default function AboutPage() {
 	return (
 		<Layout>
@@ -15,7 +16,7 @@ export default function AboutPage() {
 
 								<div className="entry-body">
 									<p>
-										Holly is a free HTML/CSS landing page designed and developed
+										This is Url-Shortner Service built with Node, Express, React AND MongoDB  landing page designed and developed
 										by @pacovitiello and @DavidePacilio!
 									</p>
 									<p>
@@ -26,7 +27,7 @@ export default function AboutPage() {
 									<hr />
 									<p>
 										Live demo:{' '}
-										<a href="https://demo.cruip.com/holly/">
+										<a href="https://twitter.com/iamgabrielsoft">
 											https://demo.cruip.com/holly/
 										</a>
 									</p>
